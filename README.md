@@ -1,9 +1,9 @@
 # 樱花校园模拟器修改版 | Sakura School Simulator Mod
 
-**中文：** 樱花校园模拟器修改版 | 武器射速提升 无敌 无限金钱 全解锁皮肤 中文汉化版
-**补充说明：** 233乐园版所有皮肤全部已解锁，全部可用。
+**中文：** 樱花校园模拟器修改版 | 武器射速提升 子弹飞行速度提升 无敌 无限金钱 全皮肤解锁 | 基于 233 乐园中文汉化版修改
+**补充说明：** 233 乐园版所有皮肤全部已解锁，全部可用。
 
-**English:** Sakura School Simulator Mod | Faster Weapon Fire Rate, Invincible, Infinite Money, All Skins Unlocked, Chinese Localized Version
+**English:** Sakura School Simulator Mod | Increased Weapon Fire Rate, Increased Bullet Speed, Invincible, Infinite Money, All Skins Unlocked | Based on the 233 Game Box Chinese localized version
 **Note:** All skins from the 233 Game Box version are fully unlocked and usable.
 
 ---
@@ -15,49 +15,49 @@
 - 文件名 / File: `SakuraMod_v100.apk`
 - 大小 / Size: 约 652 MB
 
+**国内用户提示：** GitHub 直连下载速度可能较慢，可尝试在链接前加上加速代理，例如
+`https://gh-proxy.com/https://github.com/...`
+（第三方服务，稳定性不保证）
+
 ---
 
 ## 功能 / Features
 
 | 项目 | 说明 |
 |---|---|
-| **玩家射速** | 8 发连射（原版单发） |
-| **敌人射速** | 原版 |
-| **子弹飞行速度** | 双方一致 |
-| **无敌** | 开启 |
-| **金钱** | 永久 99999999 |
-| **真枪** | 开启（替换玩具枪模型） |
-| **皮肤** | 233乐园版全部解锁 |
-| **中文汉化** | 233乐园汉化版 |
+| **武器射速** | 提升 |
+| **子弹飞行速度** | 提升 |
+| **无敌** | 启用 |
+| **金钱** | 无限 |
+| **皮肤** | 全解锁（233 乐园版全部可用） |
+| **版本** | 基于 233 乐园中文汉化版修改 |
 
 | Feature | Description |
 |---|---|
-| **Player fire rate** | 8-round burst (vanilla is single shot) |
-| **Enemy fire rate** | Vanilla |
-| **Bullet speed** | Same for both sides |
+| **Weapon fire rate** | Increased |
+| **Bullet flight speed** | Increased |
 | **Invincible** | Enabled |
-| **Money** | Permanent 99999999 |
-| **Real guns** | Enabled (replaces toy gun models) |
-| **Skins** | All 233 Game Box skins unlocked |
-| **Chinese localization** | 233 Game Box version |
+| **Money** | Infinite |
+| **Skins** | All unlocked (233 Game Box version) |
+| **Base** | Built on the 233 Game Box Chinese localized version |
 
 ---
 
 ## 已知问题 / Known Issues
 
-- 敌人偶尔会开不出枪（射速补偿副作用）
-- 子弹速度无法区分玩家/敌人
-- 弹道有轻微偏移
-- 误射无法强制开启
-- 血条不常驻
+- 敌人射速补偿机制偶尔会导致敌人开不出枪
+- 子弹飞行速度无法区分玩家与敌人
+- 高速连射时弹道存在轻微偏移
+- 「开启误射」设置无法默认强制开启
+- 人物血条不会常驻显示
 
 ---
 
 ## 安装要求 / Requirements
 
 - Android 8.0+ / arm64-v8a
-- 需要卸载原版游戏 / Must uninstall the original game
-- 存档不兼容原版 / Save data is not compatible
+- 需要先卸载原版游戏 / Must uninstall the original game first
+- 存档不兼容原版 / Save data is not compatible with the original
 
 ---
 
@@ -75,7 +75,7 @@ SHA256 见 [SHA256.txt](SHA256.txt)
 - ARM64 补丁技巧
 - 踩过的坑
 
-`docs/HANDOVER.md` documents the full reverse-engineering process:
+`docs/HANDOVER.md` documents the full reverse engineering process:
 - Unity IL2CPP structure
 - Key function addresses
 - ARM64 patching techniques
