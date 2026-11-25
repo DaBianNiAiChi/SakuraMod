@@ -1,0 +1,63 @@
+MIT License
+
+Copyright (c) 2026 DaBianNiAiChi
+
+================================================================
+SCOPE / 适用范围
+================================================================
+
+This license applies ONLY to the following parts of this repository:
+
+  - tools/      (scripts written by the author)
+  - frida/      (Frida probe scripts written by the author)
+  - docs/       (documentation written by the author)
+  - README.md, LICENSE, SHA256.txt
+
+本许可证仅适用于本仓库中由作者原创的下列内容：
+  tools/ 、frida/ 、docs/ 、README.md 、LICENSE 、SHA256.txt
+
+----------------------------------------------------------------
+EXCLUSIONS / 排除范围
+----------------------------------------------------------------
+
+This license does NOT apply to:
+
+  - Any APK file published under this repository's Releases
+  - Sakura School Simulator (樱花校园模拟器) and any of its
+    original assets, code, data, or derivative works
+  - The 233 Game Box (233乐园) localized build
+
+Those materials are the property of their respective copyright
+holders, including but not limited to Garusoft Development, and
+are NOT licensed here in any form.
+
+本许可证不适用于：
+  - 本仓库 Releases 下发布的任何 APK 文件
+  - 樱花校园模拟器及其原始素材、代码、数据或衍生作品的版权
+  - 233乐园汉化版相关内容
+
+上述内容的版权归各自权利人所有（包括但不限于 Garusoft
+Development），本仓库不以任何形式对其进行授权。
+
+================================================================
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of the AUTHORED PARTS of this repository, to
+deal in those parts without restriction, including without
+limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of those parts, and
+to permit persons to whom those parts are furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the AUTHORED
+PARTS.
+
+THE AUTHORED PARTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE AUTHORED PARTS OR THE USE
+OR OTHER DEALINGS IN THE AUTHORED PARTS.
