@@ -16,8 +16,8 @@
 - `global-metadata.dat` v29 未加密
 
 **设备**：
-- serial：`<YOUR_DEVICE_SERIAL>`（2109119BC，Android 14，Magisk root）
-- 触摸设备：`/dev/input/event4`（`synaptics_tcm_touch`）
+- serial：`<YOUR_DEVICE_SERIAL>`（Android 14，rooted）
+- 触摸设备：`/dev/input/event4`
 - 屏幕：1080x2400，density 440
 - `adb shell input tap` **无效**（Unity 吞掉），必须写 `/dev/input/event4`
 
