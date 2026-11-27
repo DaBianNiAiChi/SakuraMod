@@ -1,0 +1,19 @@
+# 大文件不直接进 git，用 Release 附件
+release/*.apk
+
+# GitHub Token（绝不提交）
+.ghtoken
+.ghcfg
+
+# 系统
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# 临时
+*.tmp
+*.log
+
+# 本地发布脚本
+*.bat
